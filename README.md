@@ -1,5 +1,5 @@
 <img width="5118" height="3340" alt="Blank diagram" src="https://github.com/user-attachments/assets/5233d9cd-7330-4c84-8e48-3d3dd960e802" />
-demo video=https://drive.google.com/file/d/1EtnRd2Q9dcBq4k-TMicSNZOmeg3Ku9rs/view?usp=sharing
+
 # Mini-Jira on AWS
 
 > Lightweight team task-management app built on AWS for GIU Cloud Computing 2026
@@ -7,7 +7,7 @@ demo video=https://drive.google.com/file/d/1EtnRd2Q9dcBq4k-TMicSNZOmeg3Ku9rs/vie
 ## 🔗 Live App
 
 **CloudFront URL:** `https://dmdfoo8zqrinp.cloudfront.net`
-
+demo video=https://drive.google.com/file/d/1EtnRd2Q9dcBq4k-TMicSNZOmeg3Ku9rs/view?usp=sharing
 ---
 
 ## 🏗️ Architecture
