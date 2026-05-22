@@ -4,7 +4,7 @@
 
 ## 🔗 Live App
 
-**CloudFront URL:** `https://YOUR_CLOUDFRONT_ID.cloudfront.net`
+**CloudFront URL:** `https://dmdfoo8zqrinp.cloudfront.net`
 
 ---
 
