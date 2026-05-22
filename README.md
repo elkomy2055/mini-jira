@@ -7,7 +7,7 @@
 ## 🔗 Live App
 
 **CloudFront URL:** `https://dmdfoo8zqrinp.cloudfront.net`
-demo video=https://drive.google.com/file/d/1EtnRd2Q9dcBq4k-TMicSNZOmeg3Ku9rs/view?usp=sharing
+**demo video:** https://drive.google.com/file/d/1EtnRd2Q9dcBq4k-TMicSNZOmeg3Ku9rs/view?usp=sharing
 ---
 
 ## 🏗️ Architecture
