@@ -11,12 +11,12 @@ export default function CreateTaskModal({ onClose, onCreated }) {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    api.get("/teams").then(({ data }) => setTeams(data)).catch(() => {});
-    api.get("/auth/users").then(({ data }) => setUsers(data)).catch(() => {});
-    api.get("/projects").then(({ data }) => setProjects(data)).catch(() => {});
+    api.get("/teams").then(({ data }) => setTeams(Array.isArray(data) ? data : [])).catch(() => {});
+    api.get("/auth/users").then(({ data }) => setUsers(Array.isArray(data) ? data : [])).catch(() => {});
+    api.get("/projects").then(({ data }) => setProjects(Array.isArray(data) ? data : [])).catch(() => {});
   }, []);
 
-  const teamUsers = form.teamId ? users.filter((u) => u.teamId === form.teamId) : users;
+  const teamUsers = form.teamId ? (Array.isArray(users) ? users.filter((u) => u.teamId === form.teamId) : []) : (Array.isArray(users) ? users : []);
 
   const handleTeamChange = (e) => {
     const team = teams.find((t) => t.teamId === e.target.value);

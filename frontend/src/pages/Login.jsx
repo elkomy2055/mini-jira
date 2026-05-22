@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import useAuthStore from "../../context/authStore";
+import useAuthStore from "../context/authStore";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -64,9 +64,9 @@ export default function Login() {
 
           <div style={{ marginTop: 20, padding: "14px", background: "var(--bg)", borderRadius: "var(--radius-sm)", fontSize: 12, color: "var(--text-muted)" }}>
             <div style={{ fontWeight: 600, marginBottom: 6, color: "var(--text-dim)" }}>Demo accounts</div>
-            <div>Manager: ali@company.com / Pass@123</div>
-            <div>Employee: sara@company.com / Pass@123</div>
-            <div>Employee: omar@company.com / Pass@123</div>
+            <div>Manager: abdalla@company.com / Pass@123</div>
+            <div>Employee: mahmoud@company.com / Pass@123</div>
+            <div>Employee: zyad@company.com / Pass@123</div>
           </div>
         </div>
       </div>
