@@ -1,3 +1,4 @@
+<img width="5118" height="3340" alt="Blank diagram" src="https://github.com/user-attachments/assets/5233d9cd-7330-4c84-8e48-3d3dd960e802" />
 # Mini-Jira on AWS
 
 > Lightweight team task-management app built on AWS for GIU Cloud Computing 2026
